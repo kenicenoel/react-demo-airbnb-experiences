@@ -29,9 +29,10 @@ function App() {
 							key={experience.id}
 							title={experience.title}
 							cost={experience.price}
-							country={experience.location}
+							location={experience.location}
 							rating={experience.stats.rating}
 							reviewCount={experience.stats.reviewCount}
+							openSpots={experience.openSpots}
 							image={`assets/images/${experience.coverImg}`}
 						/>
 					);

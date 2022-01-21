@@ -24,12 +24,26 @@ export default [
 			rating: 5.0,
 			reviewCount: 30,
 		},
-		location: "Grenada",
+		location: "Online",
 		openSpots: 27,
 	},
 	{
 		id: 3,
 		title: "Hashing through the rainforest",
+		description:
+			"Experience one of our hashes. Come run, jog or walk through the Grenadian forest, view a mona monkey and enjoy a drink with other harriers.",
+		price: 90,
+		coverImg: "woods.jpg",
+		stats: {
+			rating: 4.8,
+			reviewCount: 2,
+		},
+		location: "Grenada",
+		openSpots: 3,
+	},
+	{
+		id: 4,
+		title: "VR Hashing through the rainforest",
 		description:
 			"Experience one of our hashes. Come run, jog or walk through the Grenadian forest, view a mona monkey and enjoy a drink with other harriers.",
 		price: 50,
@@ -38,7 +52,7 @@ export default [
 			rating: 4.8,
 			reviewCount: 2,
 		},
-		location: "Grenada",
-		openSpots: 3,
+		location: "Online",
+		openSpots: 5,
 	},
 ];
