@@ -1,5 +1,4 @@
 import style from "./Card.module.css";
-import star from "../../../images/star.svg";
 interface CardProps {
 	title: string;
 	image: string;
@@ -14,7 +13,7 @@ export default function Card(props: CardProps) {
 		<div className={style.card}>
 			<img className={style.image} src={photo} alt='Photo' />
 			<div className={style.ratingWrapper}>
-				<img className={style.star} src={star} alt='Star' />
+				<img className={style.star} src='assets/images/star.svg' alt='Star' />
 				<p className={style.rating}>
 					<span>{props.rating} </span>
 					<span>({props.reviewCount}) </span>

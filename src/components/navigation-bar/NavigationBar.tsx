@@ -1,5 +1,4 @@
 import React from "react";
-import logo from "../../images/airbnb.png";
 import style from "./NavigationBar.module.css";
 
 export default function NavigationBar() {
@@ -7,7 +6,11 @@ export default function NavigationBar() {
 		<div>
 			<nav className={style.nav}>
 				<div>
-					<img className={style.logo} src={logo} alt='Logo' />
+					<img
+						className={style.logo}
+						src='assets/images/airbnb.png'
+						alt='Logo'
+					/>
 				</div>
 			</nav>
 		</div>
