@@ -8,7 +8,10 @@
 
 ## Why TypeScript?
 
-    TypeScript (a superset of JavaScript) is awesome. It allows JavaScript to become strongly typed by adding support for types, interfaces and other awesome goodies that JavaScript does not have built-in. TypeScript also makes it possible to fix errors because it can highlight various errors before compile time.
+    TypeScript (a superset of JavaScript) is awesome. 
+    It allows JavaScript to become strongly typed by adding support for types, interfaces and
+    other awesome goodies that JavaScript does not have built-in. 
+    TypeScript also makes it possible to fix errors because it can highlight various errors before compile time.
 
 ## What now?
 
