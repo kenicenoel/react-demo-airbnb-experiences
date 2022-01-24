@@ -1,8 +1,8 @@
 # Airbnb Experience Clone
 
     I created this React demo to try out using TypeScript with React. I used
-    typescript with Angular and have since fallen in love with it because it makes
-    javascript palletable to me as a C# developer.
+    TypeScript with Angular and have since fallen in love with it because it makes
+    JavaScript palletable to me as a C# developer.
 
     In this demo, components and props are used to design the layout
 
